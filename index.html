@@ -7,7 +7,6 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         html { scroll-behavior: smooth; }
-        /* Hide scrollbar for the gallery but keep functionality */
         .hide-scrollbar::-webkit-scrollbar {
             display: none;
         }
@@ -18,8 +17,6 @@
     </style>
 </head>
 <body class="bg-pink-50 text-slate-800 font-sans">
-
-    <!-- Navigation Bar -->
     <nav class="bg-white shadow-md fixed w-full z-10 top-0">
         <div class="max-w-6xl mx-auto px-4 py-3 flex flex-col md:flex-row justify-between items-center gap-3">
             <a href="#home" class="text-xl font-bold text-rose-500 tracking-wide">M.V. Albacite</a>
@@ -31,16 +28,12 @@
             </div>
         </div>
     </nav>
-
-    <!-- Hero Section -->
     <section id="home" class="min-h-screen flex flex-col items-center justify-center pt-28 md:pt-16 px-4 bg-gradient-to-br from-rose-100 to-pink-50 text-center">
         <img src="profile.jpeg" alt="Marah Velle Albacite" class="w-48 h-48 rounded-full shadow-lg border-4 border-white mb-6 object-cover bg-rose-200">
         <h1 class="text-4xl md:text-6xl font-extrabold mb-4 tracking-tight text-rose-900">Marah Velle Albacite</h1>
         <p class="text-lg md:text-2xl text-rose-700 mb-8 max-w-2xl font-medium">BS Information Technology Student @ CPSU</p>
         <a href="#about" class="bg-rose-500 text-white px-8 py-3 rounded-full hover:bg-rose-600 transition shadow-md font-semibold">Get to Know Me</a>
     </section>
-
-    <!-- About Section -->
     <section id="about" class="py-20 px-4 max-w-4xl mx-auto">
         <h2 class="text-3xl font-bold text-center mb-10 border-b-2 border-rose-300 pb-2 inline-block text-rose-900">About Me</h2>
         
@@ -65,36 +58,30 @@
         </div>
     </section>
 
-    <!-- Gallery Section (Replacing Projects) -->
     <section id="gallery" class="py-20 bg-white">
         <div class="max-w-6xl mx-auto px-4">
             <h2 class="text-3xl font-bold text-center mb-12 border-b-2 border-rose-300 pb-2 inline-block text-rose-900">Gallery</h2>
             
-            <!-- Scrolling Carousel Container -->
             <div class="flex overflow-x-auto gap-6 pb-8 snap-x snap-mandatory hide-scrollbar">
                 
-                <!-- Image 1 -->
                 <div class="flex-none w-80 md:w-96 snap-center">
                     <div class="bg-pink-50 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition border border-pink-100 h-80">
                         <img src="image1.jpg" alt="Gallery Image 1" class="w-full h-full object-cover">
                     </div>
                 </div>
-
-                <!-- Image 2 -->
+                
                 <div class="flex-none w-80 md:w-96 snap-center">
                     <div class="bg-pink-50 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition border border-pink-100 h-80">
                         <img src="image2.jpg" alt="Gallery Image 2" class="w-full h-full object-cover">
                     </div>
                 </div>
-
-                <!-- Image 3 -->
+                
                 <div class="flex-none w-80 md:w-96 snap-center">
                     <div class="bg-pink-50 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition border border-pink-100 h-80">
                         <img src="image3.jpg" alt="Gallery Image 3" class="w-full h-full object-cover">
                     </div>
                 </div>
-
-                <!-- Image 4 -->
+                
                 <div class="flex-none w-80 md:w-96 snap-center">
                     <div class="bg-pink-50 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition border border-pink-100 h-80">
                         <img src="image4.jpg" alt="Gallery Image 4" class="w-full h-full object-cover">
@@ -106,7 +93,6 @@
         </div>
     </section>
     
-    <!-- Contact Section -->
     <section id="contact" class="py-20 px-4 max-w-4xl mx-auto text-center">
         <h2 class="text-3xl font-bold mb-8 text-rose-900">Let's Connect</h2>
         <p class="text-lg text-slate-700 mb-8">Want to talk about IT, movies, or grab some food? Reach out to me!</p>
